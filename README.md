@@ -8,4 +8,4 @@ This repo contains the configuration files for vim.
 git clone https://github.com/leosumi/vim.git ~/.vim
 ```
 
-To download all the different plugins, use the `PlugInstall` command inside of vim.
+The different plugins will be automatically installed at the first execution of vim.
