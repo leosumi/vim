@@ -45,8 +45,7 @@ Plug 'junegunn/vim-plug'
  Plug 'tpope/vim-surround'                     " quoting/parenthesizing made simple
  Plug 'tpope/vim-fugitive'                     " git wrapper
  Plug 'kien/ctrlp.vim'                         " fuzzy finder
- Plug 'xolox/vim-misc'                         " Needed for easytags
- Plug 'xolox/vim-easytags'                     " Tag file manager (with ctags)
+ Plug 'ludovicchabant/vim-gutentags'           " Tag file generation (with ctags)
  Plug 'majutsushi/tagbar'                      " Displays tags (need vim 7.0 & ctags 5.5)
  Plug 'derekwyatt/vim-fswitch'                 " switching between companion source files
  Plug 'derekwyatt/vim-protodef'                " from hpp files to cpp files (need fswitch, ctags, perl) ,PP
@@ -296,9 +295,9 @@ nmap <silent> <leader>/ :nohlsearch<CR>
 nmap <leader>md :MarkdownPreview default<CR>
 nmap <leader>mg :MarkdownPreview GitHub<CR>
 
-" easytags
-nmap <leader>tu :UpdateTags<CR>
-nmap <leader>th :HighlightTags<CR>
+" gutentag
+" To know when Gutentags is generating tags
+set statusline+=%{gutentags#statusline()]
 
 " tagbar
 nmap <leader>tt :TagbarToggle<CR>
