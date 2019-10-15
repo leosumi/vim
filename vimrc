@@ -298,7 +298,7 @@ nmap <leader>mg :MarkdownPreview GitHub<CR>
 
 " gutentag
 " To know when Gutentags is generating tags
-set statusline+=%{gutentags#statusline()]
+set statusline+=%{gutentags#statusline()}
 
 " tagbar
 nmap <leader>tt :TagbarToggle<CR>
