@@ -33,6 +33,7 @@ Plug 'junegunn/vim-plug'
  Plug 'dpelle/vim-LanguageTool'                " The LanguageTool grammar checker
 
 " Plug I use
+ Plug 'editorconfig/editorconfig-vim'          " EditorConfig plugin
  Plug 'scrooloose/syntastic'                   " Syntax checking hacks for vim
 "Plug 'vim-script/c.vim'                       " C/C++ IDE
  Plug 'bfrg/vim-cpp-modern'                    " Extended vim syntax highlighting for C and C++ (C++11/14/17/20)
