@@ -35,6 +35,7 @@ Plug 'junegunn/vim-plug'
 " Plug I use
  Plug 'scrooloose/syntastic'                   " Syntax checking hacks for vim
 "Plug 'vim-script/c.vim'                       " C/C++ IDE
+ Plug 'bfrg/vim-cpp-modern'                    " Extended vim syntax highlighting for C and C++ (C++11/14/17/20)
  Plug 'othree/html5.vim'                       " html5 syntax and indent
  Plug 'godlygeek/tabular'                      " aligning text (and needed for vim-markdown)
  Plug 'plasticboy/vim-markdown'                " markdown syntax highlighting
