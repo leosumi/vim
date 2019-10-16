@@ -41,7 +41,6 @@ Plug 'junegunn/vim-plug'
  Plug 'godlygeek/tabular'                      " aligning text (and needed for vim-markdown)
  Plug 'plasticboy/vim-markdown'                " markdown syntax highlighting
  Plug 'MikeCoder/markdown-preview.vim'         " markdown preview plugin
- Plug 'wikimatze/hammer.vim'                   " markup language preview
  Plug 'vim-scripts/SearchComplete'             " TAB completion inside of /
  Plug 'scrooloose/nerdtree'                    " tree explorer
  Plug 'tpope/vim-surround'                     " quoting/parenthesizing made simple
