@@ -40,7 +40,7 @@ Plug 'junegunn/vim-plug'
  Plug 'othree/html5.vim'                       " html5 syntax and indent
  Plug 'godlygeek/tabular'                      " aligning text (and needed for vim-markdown)
  Plug 'plasticboy/vim-markdown'                " markdown syntax highlighting
- Plug 'MikeCoder/markdown-preview.vim'         " markdown preview plugin
+ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } } " markdown preview plugin for (neo)vim
  Plug 'vim-scripts/SearchComplete'             " TAB completion inside of /
  Plug 'scrooloose/nerdtree'                    " tree explorer
  Plug 'tpope/vim-surround'                     " quoting/parenthesizing made simple
