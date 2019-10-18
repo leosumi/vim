@@ -215,6 +215,10 @@ set showmatch
 " $ mark (when using c cmd)
 set cpoptions+=$
 
+" Display tabs
+set list
+set listchars=tab:>-
+
 "  }}}
 
 "  Text {{{
