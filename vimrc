@@ -110,6 +110,12 @@ set history=100
 
 "  }}}
 
+"  Filetype {{{
+augroup filetypedetect
+    au! BufRead,BufNewFile *.tsv setfiletype tsv
+augroup END
+"  }}}
+
 "  User interface {{{
 
 " Hide the mouse pointer while typing
@@ -202,6 +208,7 @@ set shiftwidth=4        " how many columns text is indented with >> and <<
 if has("autocmd")
     filetype on
     autocmd FileType make setlocal noexpandtab tabstop=4
+    autocmd FileType tsv setlocal noexpandtab tabstop=8 softtabstop=8 shiftwidth=8
     autocmd FileType yaml setlocal tabstop=2 softtabstop=2 shiftwidth=2
 endif
 
