@@ -56,8 +56,7 @@ Plug 'junegunn/vim-plug'
 "Plug ' vim-scripts/undotree.vim'              " undo tree
  Plug 'tmhedberg/matchit'                      " extended % matching for html, latex,...
  Plug 'Dimercel/todo-vim'                      " manage todo notes
- Plug 'LaTeX-Box-Team/LaTeX-Box'               " Latex toolbox
- Plug 'xuhdev/vim-latex-live-preview'          " Latex preview
+ Plug 'lervag/vimtex'                          " modern vim plugin for editing LaTeX files
 "Plug 'edkolev/tmuxline.vim'                   " status bar for tmux integration
 "Plug 'reedes/vim-pencil'
  Plug 'sirver/ultisnips'                       " snippets engine
