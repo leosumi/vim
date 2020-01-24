@@ -33,6 +33,7 @@ Plug 'junegunn/vim-plug'
  Plug 'dpelle/vim-LanguageTool'                " The LanguageTool grammar checker
 
 " Plug I use
+ Plug 'machakann/vim-sandwich'                 " To sandwich textobjects
  Plug 'editorconfig/editorconfig-vim'          " EditorConfig plugin
  Plug 'scrooloose/syntastic'                   " Syntax checking hacks for vim
 "Plug 'vim-script/c.vim'                       " C/C++ IDE
