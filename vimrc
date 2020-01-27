@@ -24,9 +24,10 @@ Plug 'junegunn/vim-plug'
  Plug 'sunaku/xoria256.vim'
  Plug 'freeo/vim-kalisi'
  Plug 'rakr/vim-one'
+ Plug 'tomasiser/vim-code-dark'
 
-"Plug 'vim-airline/vim-airline'                " status bar improvement
-"Plug 'vim-airline/vim-airline-themes'         " vim-airline themes collection
+ Plug 'vim-airline/vim-airline'                " status bar improvement (need fonts-powerline package)
+ Plug 'vim-airline/vim-airline-themes'         " vim-airline themes collection
 
 " spelling
  Plug 'dpelle/vim-Grammalecte'                 " The Grammalecte French grammar checker
@@ -149,8 +150,8 @@ if !exists("syntax_on")
 endif
 
 " Colorscheme
-colorscheme kalisi
-let g:airline_theme='kalisi'
+colorscheme codedark
+let g:airline_theme='codedark'
 
 " Tells vim what the background color looks like (can be dark or light)
 set background=dark
