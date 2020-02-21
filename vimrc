@@ -73,6 +73,7 @@ Plug 'junegunn/vim-plug'
  Plug 'vim-pandoc/vim-pandoc-syntax'           " pandoc
  Plug 'vim-scripts/loremipsum'                 " dummy text generator
  Plug 'Yggdroot/indentLine'                    " display the indentation levels with thin vertical lines
+ Plug 'kkoomen/vim-doge'                       " (do)cumentation (ge)nerator
 
 call plug#end()
 
