@@ -74,6 +74,7 @@ Plug 'junegunn/vim-plug'
  Plug 'vim-scripts/loremipsum'                 " dummy text generator
  Plug 'Yggdroot/indentLine'                    " display the indentation levels with thin vertical lines
  Plug 'kkoomen/vim-doge'                       " (do)cumentation (ge)nerator
+ Plug 'neoclide/coc.nvim',{'branch':'release'} " Intellisense engine (need nodejs and npm packages)
 
 call plug#end()
 
