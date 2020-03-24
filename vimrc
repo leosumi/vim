@@ -66,7 +66,7 @@ Plug 'junegunn/vim-plug'
  Plug 'junegunn/goyo.vim'                      " distraction-free writing
  Plug 'junegunn/limelight.vim'                 " hyperfocus-writing
  Plug 'jceb/vim-orgmode'                       " org mode
- Plug 'vimwiki/vimwiki', { 'branch': 'dev' }   " easy to make wiki
+ Plug 'vimwiki/vimwiki'                        " easy to make wiki
  Plug 'isene/hyperlist.vim'                    " easy to make HyperLists
  Plug 'tell-k/vim-autopep8'                    " python code style checker (need autopep8)
  Plug 'vim-pandoc/vim-pandoc'                  " pandoc
