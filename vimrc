@@ -342,6 +342,13 @@ nmap <silent> <leader>oK :FSSplitAbove<CR>
 " Slpit the window to edit
 let g:UltiSnipsEditSplit="vertical"
 
+" vim-markdown
+" Do not use the annoying conceal feature
+let g:vim_markdown_conceal = 0
+let g:tex_conceal = ""
+let g:vim_markdown_math = 1
+let g:vim_markdown_conceal_code_blocks = 0
+
 " vim-pandoc-syntax
 " Do not use the annoying conceal feature
 let g:pandoc#syntax#conceal#use=0
