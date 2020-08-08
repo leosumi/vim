@@ -25,6 +25,7 @@ Plug 'junegunn/vim-plug'
  Plug 'freeo/vim-kalisi'
  Plug 'rakr/vim-one'
  Plug 'tomasiser/vim-code-dark'
+ Plug 'morhetz/gruvbox'
 
  Plug 'vim-airline/vim-airline'                " status bar improvement (need fonts-powerline package)
  Plug 'vim-airline/vim-airline-themes'         " vim-airline themes collection
