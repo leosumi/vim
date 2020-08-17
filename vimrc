@@ -354,6 +354,8 @@ let g:vim_markdown_conceal_code_blocks = 0
 " Do not use the annoying conceal feature
 let g:pandoc#syntax#conceal#use=0
 
+" vimtex
+let g:tex_flavor = 'latex'
 "  }}}
 
 "  Templates {{{
