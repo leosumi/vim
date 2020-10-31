@@ -284,6 +284,9 @@ set spellsuggest=5
 " Find grammalecte
 let g:grammalecte_cli_py='/usr/bin/grammalecte-cli'
 
+" Find languagetool
+let g:languagetool_cmd='/usr/bin/languagetool'
+
 "  }}}
 
 "  Mappings {{{
