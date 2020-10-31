@@ -269,6 +269,7 @@ if has("autocmd")
     filetype on
     autocmd FileType vim setlocal foldmethod=marker
     autocmd FileType conf setlocal foldmethod=marker
+    autocmd FileType markdown setlocal foldmethod=expr
 endif
 
 "  }}}
