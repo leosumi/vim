@@ -354,6 +354,16 @@ let g:vim_markdown_conceal_code_blocks = 0
 " Do not use the annoying conceal feature
 let g:pandoc#syntax#conceal#use=0
 
+" vimwiki
+" Do not detect markdown files as wiki files
+let g:vimwiki_global_ext=0
+
+" Registered Wiki
+let wiki_alina = {}
+let wiki_alina.path = '~/Blog/Alina/wiki'
+
+let g:vimwiki_list = [wiki_alina]
+
 " vimtex
 let g:tex_flavor = 'latex'
 "  }}}
