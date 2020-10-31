@@ -282,7 +282,7 @@ endif
 set spellsuggest=5
 
 " Find grammalecte
-let g:grammalecte_cli_py='~/grammalecte/grammalecte-cli.py'
+let g:grammalecte_cli_py='/usr/bin/grammalecte-cli'
 
 "  }}}
 
