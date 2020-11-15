@@ -27,6 +27,8 @@ Plug 'junegunn/vim-plug'
  Plug 'tomasiser/vim-code-dark'
  Plug 'morhetz/gruvbox'
 
+ Plug 'ap/vim-css-color'                       " Color name highlighter
+
  Plug 'vim-airline/vim-airline'                " status bar improvement (need fonts-powerline package)
  Plug 'vim-airline/vim-airline-themes'         " vim-airline themes collection
 
